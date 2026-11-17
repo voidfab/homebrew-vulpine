@@ -27,8 +27,6 @@ cask "vulpine-gateway" do
     "~/.cache/vulpine",
     "~/.config/vulpine",
     "~/.local/state/vulpine",
-    "~/.config/glyph",
-    "~/.local/state/glyph",
     "~/Library/Application Support/Vulpine",
   ]
 end
