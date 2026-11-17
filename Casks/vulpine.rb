@@ -25,5 +25,11 @@ cask "vulpine" do
     "~/Library/Preferences/com.voidfab.vulpine.plist",
     "~/Library/Saved Application State/com.voidfab.vulpine.savedState",
     "~/Library/WebKit/com.voidfab.vulpine",
+    "~/.cache/vulpine",
+    "~/.config/vulpine",
+    "~/.local/state/vulpine",
+    "~/.config/glyph",
+    "~/.local/state/glyph",
+    "~/Library/Application Support/Vulpine",
   ]
 end

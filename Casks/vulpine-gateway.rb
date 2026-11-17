@@ -12,7 +12,6 @@ cask "vulpine-gateway" do
     skip "Pre-release builds; the tap is bumped by hand after each publish"
   end
 
-  auto_updates true
   depends_on arch: :arm64
   depends_on macos: ">= :ventura"
 
@@ -25,5 +24,11 @@ cask "vulpine-gateway" do
     "~/Library/Preferences/com.voidfab.vulpine.gateway.plist",
     "~/Library/Saved Application State/com.voidfab.vulpine.gateway.savedState",
     "~/Library/WebKit/com.voidfab.vulpine.gateway",
+    "~/.cache/vulpine",
+    "~/.config/vulpine",
+    "~/.local/state/vulpine",
+    "~/.config/glyph",
+    "~/.local/state/glyph",
+    "~/Library/Application Support/Vulpine",
   ]
 end
