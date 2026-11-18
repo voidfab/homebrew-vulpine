@@ -1,8 +1,8 @@
 cask "vulpine-gateway" do
-  version "0.2.2"
-  sha256 "8e2a1567cfbd16e68c47b5ef98d0fcbeab1354931d1de42eaa82518d3899a2a3"
+  version "0.2.3"
+  sha256 "8fad2b2e04e776836a920b2a8a7e7169a9737ff504c9311de82c1dbdf4669520"
 
-  url "https://github.com/voidfab/vulpine-releases/releases/download/v0.1.6/vulpine-gateway-#{version}-arm64.dmg"
+  url "https://github.com/voidfab/vulpine-releases/releases/download/v0.1.7/vulpine-gateway-#{version}-arm64.dmg"
   name "Vulpine Gateway"
   desc "Host app for the Vulpine gateway"
   homepage "https://github.com/voidfab/vulpine-releases"
