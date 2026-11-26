@@ -1,8 +1,8 @@
 cask "vulpine" do
-  version "0.1.7"
-  sha256 "be102398d64ea1f071bb786a299b939ac28033128c17471155603d5c54186474"
+  version "0.1.12"
+  sha256 "5e76b7a1ef9f3fcc757d82fc887af621b6e1b1661cf456eeed75b9c4e7a9f61f"
 
-  url "https://github.com/voidfab/vulpine-releases/releases/download/v0.1.7/Vulpine-#{version}-arm64.dmg"
+  url "https://github.com/voidfab/vulpine-releases/releases/download/v0.1.12/Vulpine-#{version}-arm64.dmg"
   name "Vulpine"
   desc "Voice front end for the Vulpine gateway"
   homepage "https://github.com/voidfab/vulpine-releases"
